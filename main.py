@@ -1,5 +1,4 @@
 def is_prime(n):
-
     if not isinstance(n, int) or n < 2:
         return False
     if n == 2:
@@ -13,5 +12,3 @@ def is_prime(n):
             return False
         i += 2
     return True
-
-print(is_prime(303))
